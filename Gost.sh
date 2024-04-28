@@ -3,7 +3,7 @@
 # Download the Gost script from GitHub
 temp_dir=$(mktemp -d)
 cd "$temp_dir" || exit
-wget https://github.com/amirakumu/g2/raw/main/install.sh
+wget https://github.com/amirakumu/Ghost_3/raw/main/install.sh
 sudo mkdir -p /etc/gost
 sudo mv install.sh /etc/gost/
 sudo chmod +x /etc/gost/install.sh
